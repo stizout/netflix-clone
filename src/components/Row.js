@@ -20,6 +20,7 @@ export default function Row({ movies: { movies, category } }) {
 		var slideTimer = setInterval(function () {
 			if (direction == 'left') {
 				element.scrollLeft -= step;
+				setShowRight(true);
 			} else {
 				element.scrollLeft += step;
 				setShowLeft(true);

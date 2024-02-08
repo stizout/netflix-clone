@@ -1,7 +1,7 @@
 {
 	"name": "netflix-clone",
 	"version": "0.1.0",
-	"homepage": "https://gitname.github.io/react-gh-pages",
+	"homepage": "https://stizout.github.io/netflix-clone",
 	"private": true,
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^6.5.1",

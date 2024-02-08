@@ -39,7 +39,7 @@ function App() {
 
 			headers: {
 				Accept: 'application/json',
-				'X-Plex-Token': 'WXKfC1EYRW7mTewLHGjx',
+				'X-Plex-Token': apiKey,
 				'X-Plex-Client-Identifier': 'api',
 			},
 			body: {

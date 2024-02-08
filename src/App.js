@@ -32,13 +32,15 @@ function App() {
 		let config = {
 			method: 'get',
 			maxBodyLength: Infinity,
-			url: 'https://192-168-0-2.46da8d4760e7496ab8d52b332ce7c143.plex.direct:32400/library/sections/1/unwatched',
+			// url: 'https://192-168-0-2.46da8d4760e7496ab8d52b332ce7c143.plex.direct:32400/library/sections/1/unwatched',
+
+			url: 'https://68-3-106-217.46da8d4760e7496ab8d52b332ce7c143.plex.direct:32400/library/sections/1/unwatched',
 			// url: 'https://plex.tv/api/v2/pins',
 
 			headers: {
 				Accept: 'application/json',
-				'X-Plex-Token': apiKey,
-				// 'X-Plex-Client-Identifier': 'api',
+				'X-Plex-Token': 'WXKfC1EYRW7mTewLHGjx',
+				'X-Plex-Client-Identifier': 'api',
 			},
 			body: {
 				clientIdentifer: 'api',

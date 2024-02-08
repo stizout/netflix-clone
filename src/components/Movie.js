@@ -15,7 +15,7 @@ export default function Movie({ movie }) {
 			className={`bg-blue-500 relative rounded-md transition-all min-w-[330px] max-w-[330px] h-[188px] text-3xl`}
 			onMouseEnter={(e) => {
 				ref.current = setTimeout(() => {
-					const base = document.getElementById(movie?.movieId).getBoundingClientRect();
+					const base = document.getElementById(movie?.movieId)?.getBoundingClientRect();
 					if (base.x > 1700) {
 						const difference = base.x - 1700;
 						base.x -= difference;
